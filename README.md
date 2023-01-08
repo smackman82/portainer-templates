@@ -1,3 +1,3 @@
 # portainer-templates
-Portainer repo list
+Portainer repo list /n
 Copied and sorted from SelfHostedPro & Technorabilia
