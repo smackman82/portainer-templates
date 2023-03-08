@@ -9219,52 +9219,7 @@
 			],
 			"restart_policy": "unless-stopped"
 		},
-		{
-			"type": 1,
-			"title": "Netdisco (not working)",
-			"name": "Netdisco (not working)",
-			"note": "Template based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>You must create the volume directories on the host file system.</p><p>mkdir -p /data/containers/netdisco/config</p>",
-			"description": "[Netdisco](https://github.com/netdisco/netdisco-docker/) is a web-based network management tool suitable for small to very large networks. IP and MAC address data is collected into a PostgreSQL database using SNMP, CLI, or device APIs.",
-			"platform": "linux",
-			"logo": "https://avatars.githubusercontent.com/u/4272954?s=200&v=4",
-			"image": "netdisco/netdisco:latest-web",
-			"env": [
-				{
-					"name": "PUID",
-					"label": "PUID",
-					"default": "1024",
-					"description": "for UserID"
-				},
-				{
-					"name": "PGID",
-					"label": "PGID",
-					"default": "100",
-					"description": "for GroupID"
-				},
-				{
-					"name": "TZ",
-					"label": "TZ",
-					"default": "America/New_York",
-					"description": "Specify a timezone to use for example America/New_York"
-				},
-				{
-					"name": "CONFIGFILE",
-					"label": "CONFIGFILE",
-					"default": "/config/netdisco.yaml",
-					"description": "Set a custom config file."
-				}
-			],
-			"ports": [
-				"8080:8080/tcp"
-			],
-			"volumes": [
-			{
-				"container": "/config",
-				"bind": "/data/containers/netdisco/config"
-			}
-			],
-			"restart_policy": "unless-stopped"
-		},
+		
         
         
         }
