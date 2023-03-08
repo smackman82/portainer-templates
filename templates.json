@@ -2,11 +2,6 @@
 	"version": "2",
 	"templates": [
 		{
-			"categories": [
-				"Network",
-				"Tools",
-				"Ad-Blocking"
-			],			
 			"type": 1,
 			"title": "Adguardhome-sync",
 			"name": "Adguardhome-sync",
@@ -53,11 +48,6 @@
 			"restart_policy": "unless-stopped"
 		},
 		{
-			"categories": [
-				"Web",
-				"Entertainment",
-				"Music"
-			],			
 			"type": 1,
 			"title": "Airsonic-advanced",
 			"name": "Airsonic-advanced",
@@ -126,11 +116,6 @@
 			"restart_policy": "unless-stopped"
 		},
 		{
-			"categories": [
-				"Other",
-				"Tools",
-				"Notifications"
-			],
 			"type": 1,
 			"title": "Apprise-api",
 			"name": "Apprise-api",
@@ -207,11 +192,6 @@
 			]
 		},
 		{
-			"categories": [
-				"Audio",
-				"Tools",
-				"Editor"
-			],
 			"type": 1,
 			"title": "Audacity",
 			"name": "Audacity",
@@ -252,11 +232,6 @@
 			"restart_policy": "unless-stopped"
 		},
 		{
-			"categories": [
-				"Web",
-				"Tools",
-				"Log"
-			],
 			"type": 1,
 			"title": "Babybuddy",
 			"name": "Babybuddy",
